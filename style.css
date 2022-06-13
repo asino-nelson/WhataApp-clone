@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(to right,rgba(255, 68, 0, 0.749),rgba(128, 0, 128, 0.683));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    width: 380px;
+    height: 96vh;
+    margin-top: 15px;
+    background-color: rgb(24, 50, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: default;
+    scroll-behavior: smooth;
+    scroll-margin: red;
+}
+
+nav{
+    background-color: rgb(53, 85, 64);
+    color: lightgray;
+}
+.nav-bar{
+    padding: 35px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons a{
+    text-decoration: none;
+    color: lightgrey;
+    margin-right: 20px;
+    font-weight: bold;
+
+}
+.material-symbols-outlined{
+    cursor: pointer;
+}
+#camera{
+    margin-left: 2px;
+    width: 20px;
+    padding: 0px 20px ;
+    border-radius: 2px;
+    transform: translateY(.5rem);
+    transition: 0.1s ease;
+}
+
+.nav-links a{
+    padding: 0px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: lightgrey;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    transition: 0.1s all ease;
+    transform: translateY(-.2rem);
+}
+.nav-links :hover{
+    color: aqua;
+    border-bottom: 3px solid aqua;
+}
+#status{
+    font-size: 20px;
+}
+
+.content{
+    padding: 20px 15px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+.profile{
+    padding: 10px;
+    color: lightgrey;
+    display: grid;
+    grid-template-columns: 5rem auto;
+}
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.message-content>h2{
+    font-size: 15px;
+    font-weight: 500;
+}
+.message-content>p{
+    max-width: 250px;
+    font-weight: 200;
+    font-size: 13px;
+}
+.time{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    font-size: 13px;
+    font-weight: 500;
+}
+h6{
+    margin-top: 3px;
+    text-align: center;
+    width: 13px;
+    height: 13px;
+    padding: 2px;
+    text-align: center;
+    background-color: rgba(0, 255, 153, 0.507);
+    border-radius: 50px;
+}
+
+
+.bottom-section{
+    background-color: rgb(53, 85, 64);
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+
+
